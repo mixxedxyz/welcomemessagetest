@@ -1,3 +1,6 @@
+let count = 0;
+
 setInterval(() => {
-  console.log("test");
-}, 1000);
+  count++;
+  console.log("Count:", count);
+}, 100);
